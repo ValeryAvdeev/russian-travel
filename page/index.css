@@ -9,6 +9,8 @@ Header
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_content/header__lang-link_content_ru.css);
+@import url(../blocks/header/__lang-link/_content/header__lang-link_content_en.css);
 
 /* 
 ===========
@@ -16,6 +18,17 @@ Lead
 ===========
  */
 
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
 .page {
+  max-width: 1280px;
+  padding-top: 28px;
   background-color: #2a2c2f;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
 }
