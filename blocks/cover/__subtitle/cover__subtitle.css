@@ -1,0 +1,26 @@
+.cover__subtitle {
+  margin: auto;
+  max-width: 360px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+.cover__subtitle:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

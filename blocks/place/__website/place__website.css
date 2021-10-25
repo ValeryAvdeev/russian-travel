@@ -1,0 +1,23 @@
+.place__website {
+  align-self: end;
+  justify-self: start;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 470px) {
+  .place__website {
+    grid-template-rows: 46px;
+    align-self: start;
+    grid-row: 2;
+    margin: 0 0 22px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    grid-template-rows: 46px;
+    align-self: start;
+    grid-row: 2;
+    margin: 0 16px 32px 16px;
+  }
+}
