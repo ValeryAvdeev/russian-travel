@@ -1,5 +1,5 @@
 .lead {
-  max-width: 77%;
+  max-width: 77vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -7,8 +7,14 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 90.6vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 100%;
+    max-width: 100vw;
   }
 }
