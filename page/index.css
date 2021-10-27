@@ -24,6 +24,14 @@ Page
 
 /* 
 ===========
+Content
+===========
+ */
+
+@import url(../blocks/content/content.css);
+
+/* 
+===========
 Header
 ===========
  */

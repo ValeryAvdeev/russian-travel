@@ -1,7 +1,7 @@
 .lead__image {
   display: flex;
-  max-width: 76.8vw;
-  max-height: 48vw;
+  max-width: 984px;
+  max-height: 615px;
   position: relative;
   box-sizing: border-box;
 }
