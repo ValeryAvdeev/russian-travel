@@ -16,6 +16,14 @@ Fonts
 
 /* 
 ===========
+Page
+===========
+ */
+
+@import url(../blocks/page/page.css);
+
+/* 
+===========
 Header
 ===========
  */
@@ -24,8 +32,7 @@ Header
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_content/header__lang-link_content_ru.css);
-@import url(../blocks/header/__lang-link/_content/header__lang-link_content_en.css);
+@import url(../blocks/header/__lang-link/_checked/header__lang-link_checked.css);
 
 /* 
 ===========
@@ -49,6 +56,7 @@ Intro
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 /* 
 ===========
@@ -79,6 +87,7 @@ Place
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /* 
@@ -101,10 +110,3 @@ Footer
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-.page {
-  max-width: 1280px;
-  background-color: #2a2c2f;
-  margin: auto;
-  font-family: "Inter", "Arial", sans-serif;
-}

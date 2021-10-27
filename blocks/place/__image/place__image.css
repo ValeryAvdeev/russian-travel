@@ -1,14 +1,12 @@
 .place__image {
   max-width: 460px;
-  max-height: 460px;
   grid-column: 1;
-  grid-row: 2/-1;
+  grid-row: 2;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
-    max-height: 440px;
   }
 }
 
@@ -21,14 +19,12 @@
 @media screen and (max-width: 600px) {
   .place__image {
     grid-row: 3;
-    max-width: 100%;
     justify-self: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-    grid-row: 3;
-    max-width: 320px;
+    max-width: 100%;
   }
 }

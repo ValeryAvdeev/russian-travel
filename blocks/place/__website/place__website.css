@@ -2,12 +2,15 @@
   align-self: end;
   justify-self: start;
   margin-bottom: 48px;
+  grid-column: 2;
+  grid-row: 1;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   .place__website {
     grid-template-rows: 46px;
     align-self: start;
+    grid-column: 1;
     grid-row: 2;
     margin: 0 0 22px 0;
   }
