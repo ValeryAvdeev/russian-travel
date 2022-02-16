@@ -16,4 +16,4 @@ _flex_, _grid_, _transition_, _position_, _figma_, _Git_, _БЭМ_.
 
 Проект выложин на GitHub Pages [Путишествия по России](https://valeryavdeev.github.io/russian-travel/).
 
-### Проект завершон
+### Проект завершён
